@@ -36,8 +36,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\LevelLoader.cs" />
+     <Compile Include="Assets\MenuQuit.cs" />
      <Compile Include="Assets\Scripts\DoorPass.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\SceneTransition.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjects\VectorValue.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/2019.4.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

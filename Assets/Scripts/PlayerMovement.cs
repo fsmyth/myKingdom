@@ -6,10 +6,11 @@ public class PlayerMovement : MonoBehaviour
 {
     public Rigidbody2D rb;
     public int moveSpeed = 5;
+    public VectorValue startingPosition;
     // Start is called before the first frame update
     void Start()
     {
-        
+        transform.position = startingPosition.initialValue;
     }
 
     // Update is called once per frame
