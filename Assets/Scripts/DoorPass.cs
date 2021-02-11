@@ -15,7 +15,6 @@ public class DoorPass : MonoBehaviour
     void Update()
     {
         
-            Debug.Log("Get Out");
     }
 
     

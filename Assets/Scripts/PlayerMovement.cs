@@ -5,8 +5,12 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public Rigidbody2D rb;
-    public int moveSpeed = 5;
+    public float moveSpeed = 5f;
+    public Animator anim;
+
+    Vector2 movement;
     public VectorValue startingPosition;
+    //public Animator anim; //00w1a2s3d4
     // Start is called before the first frame update
     void Start()
     {
@@ -16,15 +20,17 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.W)) {
-        rb.velocity = new Vector2(0, moveSpeed);
-    } else if(Input.GetKey(KeyCode.A)) {
-        rb.velocity = new Vector2(-moveSpeed, 0);
-    }  else if(Input.GetKey(KeyCode.S)) {
-        rb.velocity = new Vector2(0, -moveSpeed);
-    } else if(Input.GetKey(KeyCode.D)) {
-        rb.velocity = new Vector2(moveSpeed, 0);
-    } else rb.velocity = new Vector2(0,0);
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+
+        anim.SetFloat("Horizontal", movement.x);
+        anim.SetFloat("Vertical", movement.y);
+        anim.SetFloat("Speed", movement.sqrMagnitude);
+    }
+
+    void FixedUpdate()
+    {
+        rb.MovePosition(rb.position+movement * moveSpeed * Time.fixedDeltaTime);
     }
 }
 

@@ -263,12 +263,12 @@ PrefabInstance:
     - target: {fileID: 7301870623721918762, guid: e637071a9e37a134b899d9dc7db16e98,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 3
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7301870623721918762, guid: e637071a9e37a134b899d9dc7db16e98,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 6
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 7301870624257250684, guid: e637071a9e37a134b899d9dc7db16e98,
         type: 3}
@@ -380,12 +380,12 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 6.921973, y: -5.0126324}
-  - {x: -6.909706, y: -5.0085588}
-  - {x: -6.91231, y: 4.9725604}
-  - {x: -6.9117455, y: 4.9997}
-  - {x: 6.9144206, y: 5.005703}
-  - {x: 6.916618, y: -4.999832}
+  - {x: 9.490698, y: -5.344081}
+  - {x: -9.6441555, y: -5.3400064}
+  - {x: -9.646759, y: 5.3592505}
+  - {x: -9.646194, y: 5.358769}
+  - {x: 9.64887, y: 5.420014}
+  - {x: 9.595825, y: -5.386522}
 --- !u!1 &760235773
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,7 +606,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 839143610}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.85, y: 2.2972112, z: -18.149849}
+  m_LocalPosition: {x: -8.99, y: 2.2972112, z: -18.149849}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -750,7 +750,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.53333336, g: 0, b: 0.078431375, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -945,12 +945,12 @@ PrefabInstance:
     - target: {fileID: 3220936342995068685, guid: e3995f62d9a6bf441b3cd4b526762b35,
         type: 3}
       propertyPath: m_Offset.x
-      value: -0.04344988
+      value: 0.007733345
       objectReference: {fileID: 0}
     - target: {fileID: 3220936342995068685, guid: e3995f62d9a6bf441b3cd4b526762b35,
         type: 3}
       propertyPath: m_Size.x
-      value: 13.859889
+      value: 19.080416
       objectReference: {fileID: 0}
     - target: {fileID: 5476896290860992714, guid: e3995f62d9a6bf441b3cd4b526762b35,
         type: 3}
