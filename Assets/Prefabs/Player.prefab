@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -273026005
   m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: -2890255882283886544, guid: d53354f4c6ff8ff4cbcbf5189d4255f7,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -148,6 +148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 7301870623721918765}
   moveSpeed: 5
+  anim: {fileID: 3183990214397198977}
   startingPosition: {fileID: 11400000, guid: a15d7ab5d4bacfb4995b4377c710d7f6, type: 2}
 --- !u!95 &3183990214397198977
 Animator:
@@ -178,7 +179,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7301870624257250689}
   - component: {fileID: 7301870624257250686}
-  - component: {fileID: 7301870624257250684}
+  - component: {fileID: 25914262233977407}
   m_Layer: 9
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -243,7 +244,7 @@ Camera:
   m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &7301870624257250684
+--- !u!81 &25914262233977407
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

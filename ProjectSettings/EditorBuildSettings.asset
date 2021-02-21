@@ -6,15 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/BootMenu.unity
+    guid: c9d6265b79e5756448121511eef77a38
+  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
-    guid: 75ed4e54450bd9340bae9579e054f34d
+    guid: 4ef253c4d5634714fa5d526b075fa40b
   - enabled: 1
-    path: Assets/Scenes/00ThroneRoom.unity
-    guid: 9154117ba9351f144b57bff10d0b687e
+    path: Assets/Scenes/Castle.unity
+    guid: 0714ef1b8570a0c449245780d166a2d3
   - enabled: 1
-    path: Assets/Scenes/00ThroneRoomB.unity
-    guid: 193d09f9daa8f704396396188102566d
-  - enabled: 1
-    path: Assets/Scenes/01Hallway.unity
-    guid: 7ac5f30196823fd459777deb312dcef7
+    path: Assets/Scenes/Mine.unity
+    guid: 34d3ff34b855ef849afbd9a9817b8058
   m_configObjects: {}

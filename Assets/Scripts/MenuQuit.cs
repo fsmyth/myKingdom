@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class MenuQuit : MonoBehaviour
 {
+    public Animator transition;
+    public float transitionTime = 1f;
+
     // Start is called before the first frame update
     public void OnTriggerEnter2D(Collider2D other) 
     {
         if(other.CompareTag("Player") && !other.isTrigger) 
         {
-            Debug.Log("Quit!");
-            QuitGame();
+            StartCoroutine(ExitGame());
         }
     }
 
@@ -24,4 +26,11 @@ public class MenuQuit : MonoBehaviour
          Application.Quit();
      #endif
  }
+
+    IEnumerator ExitGame() {
+        transition.SetTrigger("Next");
+        yield return new WaitForSeconds(transitionTime);
+        Debug.Log("Quit!");
+        QuitGame();
+    }
 }

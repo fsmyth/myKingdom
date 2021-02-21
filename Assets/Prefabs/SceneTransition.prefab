@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4429139628082687}
   - component: {fileID: 3220936342995068685}
-  - component: {fileID: -7433012292315627888}
+  - component: {fileID: 7119308956972343301}
   m_Layer: 10
   m_Name: SceneTransition
   m_TagString: Untagged
@@ -58,7 +58,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.174175, y: 1.9297352}
   m_EdgeRadius: 0
---- !u!114 &-7433012292315627888
+--- !u!114 &7119308956972343301
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -70,6 +70,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76673631d071c734a85f7bb42c00bee7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: 
-  playerPosition: {x: 0, y: 8}
-  playerMemory: {fileID: 11400000, guid: 0306aab7b60a67c488edef7ff8ef3db8, type: 2}
+  sceneToLoad: 01Hallway
+  playerPosition: {x: 0, y: 1}
+  playerMemory: {fileID: 11400000, guid: a15d7ab5d4bacfb4995b4377c710d7f6, type: 2}

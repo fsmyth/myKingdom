@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - bg
+  - fg
+  - Clickable
+  - Portal
+  - Music
   layers:
   - Default
   - TransparentFX
@@ -47,4 +51,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 4021941291
+    locked: 0
+  - name: FG
+    uniqueID: 2208907385
     locked: 0
