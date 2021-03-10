@@ -9,6 +9,7 @@ TagManager:
   - Clickable
   - Portal
   - Music
+  - Map
   layers:
   - Default
   - TransparentFX

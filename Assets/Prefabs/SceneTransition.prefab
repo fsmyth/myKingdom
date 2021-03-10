@@ -70,6 +70,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76673631d071c734a85f7bb42c00bee7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: 01Hallway
+  sceneToLoad: 
   playerPosition: {x: 0, y: 1}
   playerMemory: {fileID: 11400000, guid: a15d7ab5d4bacfb4995b4377c710d7f6, type: 2}
+  transition: {fileID: 0}
+  transitionTime: 2
