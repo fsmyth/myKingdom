@@ -1442,12 +1442,12 @@ PrefabInstance:
     - target: {fileID: 3220936342995068685, guid: e3995f62d9a6bf441b3cd4b526762b35,
         type: 3}
       propertyPath: m_Offset.y
-      value: -0.9204426
+      value: 0.81601524
       objectReference: {fileID: 0}
     - target: {fileID: 3220936342995068685, guid: e3995f62d9a6bf441b3cd4b526762b35,
         type: 3}
       propertyPath: m_Size.y
-      value: 4.5401955
+      value: 1.0672798
       objectReference: {fileID: 0}
     - target: {fileID: 3220936342995068685, guid: e3995f62d9a6bf441b3cd4b526762b35,
         type: 3}
@@ -1472,12 +1472,12 @@ PrefabInstance:
     - target: {fileID: 7119308956972343301, guid: e3995f62d9a6bf441b3cd4b526762b35,
         type: 3}
       propertyPath: playerPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7119308956972343301, guid: e3995f62d9a6bf441b3cd4b526762b35,
         type: 3}
       propertyPath: sceneToLoad
-      value: Map
+      value: Market
       objectReference: {fileID: 0}
     - target: {fileID: 7119308956972343301, guid: e3995f62d9a6bf441b3cd4b526762b35,
         type: 3}
@@ -1492,7 +1492,7 @@ PrefabInstance:
     - target: {fileID: 7119308956972343301, guid: e3995f62d9a6bf441b3cd4b526762b35,
         type: 3}
       propertyPath: transitionTime
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7119308956972343301, guid: e3995f62d9a6bf441b3cd4b526762b35,
         type: 3}
@@ -1506,6 +1506,32 @@ PrefabInstance:
       objectReference: {fileID: 350777509}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3995f62d9a6bf441b3cd4b526762b35, type: 3}
+--- !u!1 &562832145 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5476896290860992714, guid: e3995f62d9a6bf441b3cd4b526762b35,
+    type: 3}
+  m_PrefabInstance: {fileID: 562832144}
+  m_PrefabAsset: {fileID: 0}
+--- !u!68 &562832146
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562832145}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -1.5188222, y: -0.2735939}
+  - {x: -1.5197402, y: -3.148529}
+  - {x: 1.4812596, y: -3.1485786}
+  - {x: 1.4812317, y: -0.2735672}
 --- !u!1 &718043972
 GameObject:
   m_ObjectHideFlags: 0
@@ -21210,7 +21236,7 @@ MonoBehaviour:
   range: 2
   playerMemory: {fileID: 11400000, guid: a15d7ab5d4bacfb4995b4377c710d7f6, type: 2}
   transition: {fileID: 501294834}
-  transitionTime: 2
+  transitionTime: 1
 --- !u!4 &2099140385
 Transform:
   m_ObjectHideFlags: 0

@@ -36,11 +36,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Dialogue\Dialogue.cs" />
-     <Compile Include="Assets\Scripts\Dialogue\DialogueManager.cs" />
-     <Compile Include="Assets\Scripts\Dialogue\DialogueTrigger.cs" />
-     <Compile Include="Assets\Scripts\Dialogue\NPCManager.cs" />
-     <Compile Include="Assets\Scripts\Dialogue\ObjectTrigger.cs" />
+     <Compile Include="Assets\Scripts\Dialogue&amp;Resources\Dialogue.cs" />
+     <Compile Include="Assets\Scripts\Dialogue&amp;Resources\DialogueManager.cs" />
+     <Compile Include="Assets\Scripts\Dialogue&amp;Resources\DialogueTrigger.cs" />
+     <Compile Include="Assets\Scripts\Dialogue&amp;Resources\NPCManager.cs" />
+     <Compile Include="Assets\Scripts\Dialogue&amp;Resources\NewDay.cs" />
+     <Compile Include="Assets\Scripts\Dialogue&amp;Resources\ObjectTrigger.cs" />
+     <Compile Include="Assets\Scripts\Dialogue&amp;Resources\ResourceManager.cs" />
+     <Compile Include="Assets\Scripts\Dialogue&amp;Resources\Resources.cs" />
      <Compile Include="Assets\Scripts\Movement\Location.cs" />
      <Compile Include="Assets\Scripts\Movement\MenuQuit.cs" />
      <Compile Include="Assets\Scripts\Movement\PlayerMovement.cs" />
@@ -49,9 +52,6 @@
      <Compile Include="Assets\Scripts\Music\BGMManager.cs" />
      <Compile Include="Assets\Scripts\Music\BGMMenu.cs" />
      <Compile Include="Assets\Scripts\Music\BGMWild.cs" />
-     <Compile Include="Assets\Scripts\NewDay.cs" />
-     <Compile Include="Assets\Scripts\ResourceManager.cs" />
-     <Compile Include="Assets\Scripts\Resources.cs" />
      <Compile Include="Assets\Scripts\ScriptableObjects\VectorValue.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/2019.4.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Castle.unity
     guid: 0714ef1b8570a0c449245780d166a2d3
   - enabled: 1
+    path: Assets/Scenes/Market.unity
+    guid: 5c316be4b479c2849993add1c6bb3e0a
+  - enabled: 1
     path: Assets/Scenes/Map.unity
     guid: 37b1cedc00563eb43b108e2518bf75d1
   - enabled: 1
@@ -26,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Farm.unity
     guid: 6dfaa6ecab058f547ae0da614e79b77d
+  - enabled: 1
+    path: Assets/Scenes/Lumbermill.unity
+    guid: 38612d6280a52784abeda64cd6e736e7
   m_configObjects: {}

@@ -72,6 +72,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: 
   playerPosition: {x: 0, y: 1}
+  player: {fileID: 0}
+  range: 2
   playerMemory: {fileID: 11400000, guid: a15d7ab5d4bacfb4995b4377c710d7f6, type: 2}
   transition: {fileID: 0}
-  transitionTime: 2
+  transitionTime: 1
