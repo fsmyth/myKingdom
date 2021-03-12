@@ -1539,6 +1539,7 @@ GameObject:
   - component: {fileID: 477653232}
   - component: {fileID: 477653231}
   - component: {fileID: 477653230}
+  - component: {fileID: 477653233}
   m_Layer: 0
   m_Name: Teacher
   m_TagString: Untagged
@@ -1653,6 +1654,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &477653233
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477653229}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.0625, y: 1.9375}
+    newSize: {x: 1.0625, y: 1.9375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0625, y: 1.9375}
+  m_EdgeRadius: 0
 --- !u!1 &560738973 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7301870623721918761, guid: e637071a9e37a134b899d9dc7db16e98,

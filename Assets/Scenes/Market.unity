@@ -18387,7 +18387,7 @@ GameObject:
   - component: {fileID: 1361225787}
   - component: {fileID: 1361225790}
   m_Layer: 8
-  m_Name: Guard1
+  m_Name: GuardA
   m_TagString: fg
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18651,7 +18651,7 @@ GameObject:
   - component: {fileID: 1712607024}
   - component: {fileID: 1712607027}
   m_Layer: 8
-  m_Name: Guard2
+  m_Name: GuardB
   m_TagString: fg
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

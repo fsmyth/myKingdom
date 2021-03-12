@@ -21418,4 +21418,4 @@ MonoBehaviour:
     - I can look over my territory from here...
     portrait: {fileID: 21300000, guid: 1e62e35392f48204ebddf3c20c1c0806, type: 3}
   player: {fileID: 350777509}
-  range: 2
+  range: 3
