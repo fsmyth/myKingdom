@@ -9,14 +9,14 @@ public class NewDay : MonoBehaviour
     public Vector2 playerPosition;
     public VectorValue playerMemory;
     public Animator transition;
-    public float transitionTime = 2f;
+    public float transitionTime = 1f;
 
     public void OnTriggerEnter2D(Collider2D other) 
     {
             if(other.CompareTag("Player") && !other.isTrigger) 
         {
             NPCManager.ResetDone();
-            NPCManager.PassDay();
+            // NPCManager.PassDay();
             StartCoroutine(NextDay());
         }
         
@@ -26,6 +26,7 @@ public class NewDay : MonoBehaviour
         playerMemory.initialValue = playerPosition;
         transition.SetTrigger("Next");
         yield return new WaitForSeconds(transitionTime);
+        NPCManager.PassDay();
         SceneManager.LoadScene("Castle");
     }
 }

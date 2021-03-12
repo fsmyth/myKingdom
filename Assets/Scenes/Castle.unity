@@ -450,7 +450,7 @@ MonoBehaviour:
   playerPosition: {x: -0.5, y: 9.5}
   playerMemory: {fileID: 11400000, guid: a15d7ab5d4bacfb4995b4377c710d7f6, type: 2}
   transition: {fileID: 1856321591}
-  transitionTime: 2
+  transitionTime: 1
 --- !u!1 &81614734
 GameObject:
   m_ObjectHideFlags: 0
@@ -1872,8 +1872,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ce4d1df84c633a42aa8a83356e0a95e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  daysPassed: 0
-  day: 0
+  daysPassed: 1
+  day: 1
   tenday: 0
   month: 1
   tenmonth: 0

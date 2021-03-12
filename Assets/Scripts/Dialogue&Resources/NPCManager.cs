@@ -35,7 +35,6 @@ public class NPCManager : MonoBehaviour
     }
 
     public static void PassDay(){
-        nPCManager.day = 0;
         nPCManager.tenday = 0;
         nPCManager.month = 1;
         nPCManager.tenmonth = 0;
@@ -54,8 +53,8 @@ public class NPCManager : MonoBehaviour
             nPCManager.day = nPCManager.day-10;
             nPCManager.tenday++;
         }
-        if(nPCManager.month>2){
-            if(nPCManager.tenmonth==1) {
+        if(nPCManager.tenmonth>=1){
+            if(nPCManager.month>=2) {
             nPCManager.month = 0;
             nPCManager.tenmonth = 0;
             }
