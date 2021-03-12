@@ -17663,12 +17663,14 @@ MonoBehaviour:
     sentences:
     - Your Highness! It's an honour!
     - You came all this way to check up on the mine?
+    - Come back tomorrow for more IRON.
     portrait: {fileID: -5916549002686775564, guid: 21b7c1cce1d886146adacccfe1fb407b,
       type: 3}
   dialogue2:
     name: Mining Foreman
     sentences:
     - Always a pleasure to have you, your highness!
+    - Come back tomorrow for more IRON.
     portrait: {fileID: -5916549002686775564, guid: 21b7c1cce1d886146adacccfe1fb407b,
       type: 3}
   player: {fileID: 1891922463}

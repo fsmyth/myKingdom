@@ -5424,12 +5424,13 @@ MonoBehaviour:
     - Hail, your majesty.
     - Gone a far way from the capital today, aren't we?
     - Stay vigilant, your highness.
+    - Come back tomorrow for more WOOD.
     portrait: {fileID: -1657196506536472935, guid: d53354f4c6ff8ff4cbcbf5189d4255f7,
       type: 3}
   dialogue2:
     name: Lumberjack
     sentences:
-    - Stay vigilant, your highness.
+    - Come back tomorrow for more WOOD.
     portrait: {fileID: -1657196506536472935, guid: d53354f4c6ff8ff4cbcbf5189d4255f7,
       type: 3}
   player: {fileID: 714699093}

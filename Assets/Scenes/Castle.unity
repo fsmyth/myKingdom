@@ -248,8 +248,10 @@ MonoBehaviour:
     sentences:
     - Good day, Your Highness!
     - Are you ready to start your day?
-    - Please go to the map room, and we'll get started!
+    - "Please go to the map room when you're ready, \nand take a look at the map!"
     - Oh? It's across the hallway from this room.
+    - "Whenever you're feeling tired, you can skip to the next day \nby returning
+      to your throne."
     portrait: {fileID: 21300000, guid: eeabf7bc0dcf93142aea18aff23691d3, type: 3}
   dialogue2:
     name: 
