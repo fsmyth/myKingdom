@@ -16,6 +16,7 @@ public class NewDay : MonoBehaviour
             if(other.CompareTag("Player") && !other.isTrigger) 
         {
             NPCManager.ResetDone();
+            NPCManager.PassDay();
             StartCoroutine(NextDay());
         }
         

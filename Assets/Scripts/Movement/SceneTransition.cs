@@ -47,7 +47,6 @@ public class SceneTransition : MonoBehaviour
     //If it's a button (i.e, tagged with Clickable), this function will be used.
     public void OnMouseDown() 
     {
-        Debug.Log("Clicked!");
         if(gameObject.tag == "Clickable") 
         {
             StartCoroutine(LoadNext(sceneToLoad));

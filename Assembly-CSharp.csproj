@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Dialogue&amp;Resources\Date.cs" />
      <Compile Include="Assets\Scripts\Dialogue&amp;Resources\Dialogue.cs" />
      <Compile Include="Assets\Scripts\Dialogue&amp;Resources\DialogueManager.cs" />
      <Compile Include="Assets\Scripts\Dialogue&amp;Resources\DialogueTrigger.cs" />
