@@ -2079,7 +2079,7 @@ GameObject:
   - component: {fileID: 1168567544}
   - component: {fileID: 1168567546}
   m_Layer: 8
-  m_Name: Enchanter
+  m_Name: Banker
   m_TagString: bg
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2163,15 +2163,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Enchanter
+    name: Banker
     sentences:
-    - Good morning, your majesty...
-    - Still awaiting the shipments to arrive, I'm afraid...
+    - Good morning, your majesty!
+    - I'll take those resources off your hands in exchange for GOLD!
+    - Come back tomorrow for more GOLD!
     portrait: {fileID: 7475421829904013761, guid: 21b7c1cce1d886146adacccfe1fb407b,
       type: 3}
   dialogue2:
-    name: Enchanter
-    sentences: []
+    name: Banker
+    sentences:
+    - Come back tomorrow for more GOLD!
     portrait: {fileID: 7475421829904013761, guid: 21b7c1cce1d886146adacccfe1fb407b,
       type: 3}
   player: {fileID: 1974179546}
@@ -2183,7 +2185,7 @@ MonoBehaviour:
   sr: {fileID: 1168567544}
   range: 3
   collected: 0
-  role: 0
+  role: 5
   friendship: 0
 --- !u!1 &1172078221
 GameObject:

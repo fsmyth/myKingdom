@@ -42,19 +42,37 @@ public class ResourceManager : MonoBehaviour
         return resourceManager.food;
     }
 
+    //Adds iron to the player's current iron count.
     public static void AddIron(int ironAdded) {
         resourceManager.iron = resourceManager.iron+ironAdded;
     }
-
+    //Adds gold to the player's current gold count.
     public static void AddGold(int goldAdded) {
         resourceManager.gold = resourceManager.gold+goldAdded;
     }
-
+    //Adds wood
     public static void AddWood(int woodAdded) {
         resourceManager.wood = resourceManager.wood+woodAdded;
     }
 
     public static void AddFood(int foodAdded) {
         resourceManager.food = resourceManager.food+foodAdded;
+    }
+
+    //Subtracts iron to the player's current iron count.
+    public static void SubIron(int ironSubbed) {
+        resourceManager.iron = resourceManager.iron-ironSubbed;
+    }
+    //Subs gold to the player's current gold count.
+    public static void SubGold(int goldSubbed) {
+        resourceManager.gold = resourceManager.gold-goldSubbed;
+    }
+    //Subs wood
+    public static void SubWood(int woodSubbed) {
+        resourceManager.wood = resourceManager.wood-woodSubbed;
+    }
+
+    public static void SubFood(int foodSubbed) {
+        resourceManager.food = resourceManager.food-foodSubbed;
     }
 }

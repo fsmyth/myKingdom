@@ -7,9 +7,10 @@ using UnityEngine.SceneManagement;
 public class Location : MonoBehaviour
 {
     public Text locationName;
-    // Start is called before the first frame update
+
     void Start()
     {
+        //Gets the name of the active scene to display on the HUD.
         locationName.text = SceneManager.GetActiveScene().name;
     }
 

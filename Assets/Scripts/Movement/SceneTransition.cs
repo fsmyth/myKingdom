@@ -16,11 +16,11 @@ public class SceneTransition : MonoBehaviour
     
 
     void Update() {
-
+        //Load the menu if the player pushes ESCAPE
         if (Input.GetKeyDown(KeyCode.Escape)) {
             SceneManager.LoadScene("MainMenu");
         }
-        
+        //Load the map scene if the player approaches and activates the map.
         if(gameObject.tag == "Map") {
             if(Vector3.Distance(transform.position, player.position) < range){
                 if (Input.GetKeyDown(KeyCode.E))

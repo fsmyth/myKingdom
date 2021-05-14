@@ -17,7 +17,7 @@ public class BGMManager : MonoBehaviour
 
      public static BGMManager bGMManager;
      public string nowPlaying;
-     
+     //Starts the music when it's loaded.
      void Awake(){
          if (bGMManager == null){
              bGMManager = this;
@@ -26,11 +26,12 @@ public class BGMManager : MonoBehaviour
              Destroy(gameObject);
      }
     }
-
+    //Starts with the menu music.
     void Start() {
         MenuMusic();
     }
 
+    //If in the castle, play the castle music.
     public static void CastleMusic() {
         if (bGMManager != null && bGMManager.nowPlaying !="Castle") {
             bGMManager.source.Stop();
@@ -40,6 +41,7 @@ public class BGMManager : MonoBehaviour
         }
     }
 
+    //If outside, play the outside music.
     public static void OutsideMusic() {
         if (bGMManager != null && bGMManager.nowPlaying !="Outside") {
             bGMManager.source.Stop();
@@ -49,6 +51,7 @@ public class BGMManager : MonoBehaviour
         }
     }
 
+    //If in the menu, play the menu music.
     public static void MenuMusic() {
         if (bGMManager != null && bGMManager.nowPlaying !="Menu") {
             bGMManager.source.Stop();
@@ -58,6 +61,7 @@ public class BGMManager : MonoBehaviour
         }
     }
 
+    //If the player presses M, mutes the music.
     void Update() {
         if (Input.GetKeyDown(KeyCode.M)){
             if (bGMManager.source.mute) {

@@ -1354,4 +1354,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Mine.unity
   - Assets/Scenes/Farm.unity
   - Assets/Scenes/Lumbermill.unity
-  playerPath: D:/FinnWork/Unity Projects/My Kingdom (WIP)/My Kingdom.exe
+  playerPath: D:/FinnWork/BUILDS/My Kingdom.exe

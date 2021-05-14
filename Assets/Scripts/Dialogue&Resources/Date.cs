@@ -11,7 +11,7 @@ public class Date : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+    //Takes the dates from the NPC Manager and displays them.
     void Update()
     {
         d01.text = ""+NPCManager.GetDay();

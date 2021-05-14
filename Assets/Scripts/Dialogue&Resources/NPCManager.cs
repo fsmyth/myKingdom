@@ -5,12 +5,19 @@ using UnityEngine;
 public class NPCManager : MonoBehaviour
 {
 
+    //Sets booleans to store whether or not the player has interacted with the NPCs that dispense resources.
     public static bool minerDone;
     public static bool farmerDone;
     public static bool lumberDone;
+    public static bool bankerDone;
 
     
     [SerializeField]
+    //daysPassed stores the total number of days passed.
+    //day stores the current day from 1-9.
+    //tenday stores the count of each ten days.
+    //month stores the current month from 1-9.
+    //tenmoth stores the count of each ten months.
     private int daysPassed, day, tenday, month=1, tenmonth;
 
      public static NPCManager nPCManager;
@@ -28,18 +35,23 @@ public class NPCManager : MonoBehaviour
     void Update() {
     }
 
+    //Resets the booleans to indicate that the player has collected the resources.
+    //This function is called in NewDay.
     public static void ResetDone() {
         minerDone = false;
         farmerDone = false;
         lumberDone = false;
+        bankerDone = false;
     }
 
+    //The PassDay() function handles changing the date when the day is passed.
     public static void PassDay(){
         nPCManager.tenday = 0;
         nPCManager.month = 1;
         nPCManager.tenmonth = 0;
         nPCManager.daysPassed++;
         nPCManager.day = nPCManager.daysPassed;
+        //When the days exceed 30, adds months.
         while(nPCManager.day>30) {
             nPCManager.day = nPCManager.day-30;
             if(nPCManager.month<9) {
