@@ -913,7 +913,7 @@ ScriptsOnlyBuild:
     className: SignalAsset
   - hash:
       serializedVersion: 2
-      Hash: 640ececce6aae7ec4ff30a8f1b25b453
+      Hash: fe90fdfd145e96fa2d8e6ac3f6d88d56
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DialogueTrigger
